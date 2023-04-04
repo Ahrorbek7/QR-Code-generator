@@ -1,0 +1,57 @@
+body{
+  background-image: linear-gradient(to right, #000428, #004e92);
+}
+
+.themeText{
+  text-align: center;
+  font-size: 2.5rem;
+  color: #fff;
+}
+.inputSec{
+  display: flex;
+  justify-content: center;
+  padding: 0 200px;
+}
+.inputSec > input{
+  padding: 15px;
+  font-size: 1rem;
+  background: transparent;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  color: #fff;
+  width: 40%;
+}
+.inputSec > input:focus{
+  box-shadow: none;
+  outline: none;
+}
+.output{
+  text-align: center;
+  padding: 20px 0 20px 0;
+}
+
+.buttonsArea{
+  display: flex;
+  justify-content: center;
+}
+.generateBtn{
+  background-color: #ff15d7;
+  padding: 15px 10px;
+  color: #fff;
+  font-family: system-ui;
+  border: none;
+  font-size: 20px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.downloadBtn{
+  background-color: #1ae374;
+  padding: 15px 10px;
+  color: #fff;
+  font-family: system-ui;
+  border: none;
+  font-size: 20px;
+  border-radius: 7px;
+  cursor: pointer;
+  margin: 0 20px;
+}
